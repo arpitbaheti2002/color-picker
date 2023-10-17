@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  position: relative;
+  background-color: violet;
+  text-align: center;
+}
+
+.heading{
+  margin: 10vh 0 5vh;
+  font-size: 7vh;
+  font-family: Arial, sans-serif;
+}
+
+.background{
+  position: relative;
+  width: 70%;
+  height: 70vh;
+  margin: auto;
+  border-radius: 50px;
+  box-shadow: 0px 0px 15px #111;
+}
+
+.colors{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+}
+
+.plate{
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.pickColor{
+  position: absolute;
+  bottom: 70px;
+  transform: translate(-50%, 0%);
+  border: 0;
+  background-color: #28A745;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px;
+}
